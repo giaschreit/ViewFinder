@@ -26,20 +26,15 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         present(imagePicker, animated:true, completion:nil)
     }
     
+    @IBOutlet weak var displayImage: UIImageView!
     
-    
-    
-    
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func imagePickerCOntroller(_picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        if let selectedImage = info [UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            displayImage.image = selectedImage
+        }
+        imagePicker.dismiss(animated: true, completion: nil)
     }
-    */
-
+    
+    
 }

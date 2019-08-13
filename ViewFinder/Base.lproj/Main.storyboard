@@ -99,6 +99,9 @@
                         <viewLayoutGuide key="safeArea" id="7Wr-2v-ABo"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="4Ww-9N-jTl"/>
+                    <connections>
+                        <outlet property="displayImage" destination="OGO-3Y-3Ne" id="DTz-Ax-0Tt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cuM-zP-TKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

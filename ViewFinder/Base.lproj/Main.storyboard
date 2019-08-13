@@ -71,6 +71,9 @@
                                 <rect key="frame" x="65" y="487" width="75" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="TakeSelfieTapped:" destination="qOX-79-fhg" eventType="touchUpInside" id="t3G-kA-9Iq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDV-q5-6bx">
                                 <rect key="frame" x="302" y="487" width="56" height="39"/>

@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>&quot;We need acces to your camera for you to be able to take photos&quot;</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>&quot;We need access to your library in order for you to access photos on your photo album&quot;</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

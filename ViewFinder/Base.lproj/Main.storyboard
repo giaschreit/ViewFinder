@@ -48,7 +48,7 @@
         <!--Add New Photo-->
         <scene sceneID="Baj-4Y-pW2">
             <objects>
-                <viewController id="qOX-79-fhg" sceneMemberID="viewController">
+                <viewController id="qOX-79-fhg" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pgm-Mb-0nl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

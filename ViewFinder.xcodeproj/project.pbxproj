@@ -14,6 +14,7 @@
 		B157758A2302F168005D2AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15775882302F168005D2AF2 /* LaunchScreen.storyboard */; };
 		B15775952302F168005D2AF2 /* ViewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15775942302F168005D2AF2 /* ViewFinderTests.swift */; };
 		B15775A02302F168005D2AF2 /* ViewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157759F2302F168005D2AF2 /* ViewFinderUITests.swift */; };
+		B1C4881B230326D400A729BE /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4881A230326D400A729BE /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B157759B2302F168005D2AF2 /* ViewFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B157759F2302F168005D2AF2 /* ViewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderUITests.swift; sourceTree = "<group>"; };
 		B15775A12302F168005D2AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C4881A230326D400A729BE /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B157757C2302F167005D2AF2 /* AppDelegate.swift */,
 				B15775802302F167005D2AF2 /* Main.storyboard */,
 				B15775862302F168005D2AF2 /* Assets.xcassets */,
+				B1C4881A230326D400A729BE /* AddPhotoViewController.swift */,
 				B15775882302F168005D2AF2 /* LaunchScreen.storyboard */,
 				B157758B2302F168005D2AF2 /* Info.plist */,
 				B15775832302F167005D2AF2 /* ViewFinder.xcdatamodeld */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15775852302F167005D2AF2 /* ViewFinder.xcdatamodeld in Sources */,
+				B1C4881B230326D400A729BE /* AddPhotoViewController.swift in Sources */,
 				B157757D2302F167005D2AF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
